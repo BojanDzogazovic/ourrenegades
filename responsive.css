@@ -1,0 +1,198 @@
+@media(max-width: 1000px){
+   .modal{
+       margin-top: 10%;
+   }
+}
+
+@media(max-width: 1100px){
+
+}
+
+@media(max-width: 900px){
+    .shirt{
+        margin-bottom:15%;
+        width:23vw;
+    }
+    .arrow{
+        margin-top:30%;
+    }
+}
+
+@media(max-width: 700px){
+    p.fanzonep{
+        margin-top: 15px; 
+    } 
+}
+
+@media(min-width: 700px){
+    p.fanzoner{
+        font-size: 2.5vw;
+    }
+    p.fanzonep{
+        margin-top: 20px; 
+    }
+}
+
+@media(min-width: 900px){
+    p.fanzoner{
+        font-size: 2vw;
+        margin-top: -50px;
+        
+    }
+    p.fanzonep{
+        margin-top: 15px; 
+        font-size: 8vw;
+    }
+}
+
+@media(max-width: 900px){
+    .question{
+        width:90%;
+        margin-left: 5%;
+    }
+    .arrow{
+        transform: rotateX(180deg); 
+        float:right;
+    }
+    .shirt{
+        width:35vw;
+    }
+    .gotoblog{
+        font-size: 6vw;
+    }
+    .envelope{
+        width:65vw;
+    }
+    .envelopecontact2{
+        font-size: 1.3vw;
+    }
+}
+
+@media(min-width: 1100px){
+    p.fanzoner{
+        font-size: 1.6vw;
+        margin-top: -80px;
+        margin-bottom: 0px;
+    }
+    p.fanzonep{
+        margin-top: 50px; 
+        font-size: 7vw;
+    }
+
+ }
+
+@media(min-width: 900px) and (max-width: 995px){
+    .arrowdiv{
+        display: none;
+    }
+    .shirtdiv{
+        float:right;
+        padding-left:20%;
+    }
+}
+
+@media(max-width: 770px){
+    .list-group-item{
+        font-size: 2.3vw;
+    }
+}
+
+@media(max-width: 790px){
+    .envelope{
+        width:90vw;
+        padding-left:5vw;
+    }
+    .envelopecontact1, .envelopecontact2{
+        display:none;
+    }
+    .envelopecontact3{
+        display: block;
+        font-size: 1.8vw;
+    }
+}
+
+
+@media(max-width: 500px){
+    .arrowdiv{
+        display: none;
+    }
+    .shirtdiv{
+        width: 100%;
+        padding:10% 25%;
+    }
+    .shirt{
+        width:50vw;
+    }
+    .envelopecontact2, .envelopecontact3{
+        display: none;
+    }
+
+    .envelopecontact1{
+        display: block;
+        padding-top:3%;
+        font-size: 2.5vw;
+    }
+}
+
+@media(max-width: 670px){
+   .buyticket, .soldout1{
+       width:100%;
+   }
+   .list-group-item{
+       font-size: 15px;
+       text-align: center;
+       position: relative;
+   }
+   .soldout2{
+       position: absolute;
+       top:20%;
+       left:40%;
+       padding: 15px 20px;
+   }
+}
+
+@media(max-width: 625px){
+    .tours{
+        font-size: 8vw;
+    }
+    .blogtitle{
+        font-size:15vw;
+    }
+}
+
+@media(min-width: 500px){
+    .slide1, .source{
+        font-size: 4vh;
+        padding-top: 4vh;
+    }
+}
+
+@media(max-width: 400px){
+    .tackice{
+        display: none;
+    }
+    .start{
+        padding-top: 100px;
+    }
+    .slide1{
+        padding-top:10vh;
+        padding-left: 25px;
+        padding-right: 25px;   
+    }
+    .frederika h3{
+        font-size: 1.5rem;
+    }
+    .frederika{
+        margin-bottom: -25px;
+        padding-bottom: 0; 
+    }  
+}
+
+@media(min-width: 791px) and (max-width: 1200px){
+    .envelopecontact2{
+        display: block;
+    }
+    .envelopecontact1{
+        display: none;
+    }
+}

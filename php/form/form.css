@@ -1,0 +1,75 @@
+body {
+    background-color: #ffff00;
+}
+.title {
+    font-family: Bangers, cursive;
+    font-size:90px;
+    margin: 5px 0 0 20px;;
+    color:#ffff00;
+	text-shadow: -1px 0 black, 0 4px black, 6px 0 black, 0 -1px black;
+}
+.cart {
+    color: #000;
+    margin-left:100px;
+    font-size:110px;
+}
+.form {
+    background-color: #ffff00;
+	margin-top: 40px;
+	font-family: Bangers, cursive;
+}
+.header {
+    background-color: #000;
+	color: #ffff00;
+	border-radius: 5px;
+	border:2px solid #000;
+    font-size: 30px;
+    padding-left:50px;
+    width:90%;
+    margin-left:20px;
+
+}
+.price {
+    font-size:20px;
+}
+.field {
+    font-family: Montserrat, cursive;
+}
+button.order {
+	background-color: #000;
+	color: #ffff00;
+	border:2px solid #000;
+	font-size: 20px;
+	outline:none;
+	font-family: Bangers, cursive;
+    width:50%;
+    margin-left: 300px;
+	border-radius: 2px;
+	transition:0.4s;
+}
+button.order:hover {
+	background-color: #ffff00;
+	color: #000;
+	border:2px solid #000;
+	font-size: 20px;
+	border-radius: 2px;
+	font-family: Bangers, cursive;
+}
+footer {
+    background-color:#000;
+    padding-top:10px;
+    position:fixed;
+    bottom:0px;
+    width:100%;
+}
+footer p {
+    color:#fff; 
+    text-align:center;
+    font-family:Montserrat, cursive;
+}
+footer span {
+    color:#ffff00;
+}
+.form_error {
+    color:red;
+}

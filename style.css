@@ -1,0 +1,638 @@
+.navbar {
+	background-color: #000;
+	border:0;
+	border-radius: 0;
+	padding-left:10px;
+	padding-right:10px;
+	z-index:9999;
+	font-family: Montserrat, cursive;
+}
+
+.navbar li a {
+	color: #ffff00 !important;
+}
+
+.navbar .navbar-brand {
+	font-family: Bangers, cursive !important;
+	color:#fff !important;
+	font-size: 25px !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+	background-color: #ffff00 !important;
+	color: #000 !important;
+	transition: 0.5s;
+	font-weight: bold;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: transparent;
+	background-color: transparent;
+	color:#ffff00;
+}
+
+.navbar-toggle:hover, .navbar-toggle:focus {
+	border-color:#ffff00 !important;
+	background-color: #ffff00 !important;
+	color:#000 !important;
+}
+
+.start {
+	padding-top: 60px;
+	background-color: #000;
+	color: #fff;
+    font-family: Bangers, cursive;
+}
+
+.title {
+	font-size: 15vw;
+}
+
+.subtitle1 {
+    font-size: 5vw;
+    margin-top: 3vw;
+    margin-bottom: -3vw;
+}
+
+.subtitle2 {
+    font-size: 5vw;
+}
+
+.carousel-inner.small {
+    background-color: #000;
+    height:30vh;
+}
+
+.slide1{
+    padding-top: 6vh;
+	color:#fff;
+	font-size: 5vw;
+	line-height: 30px;
+	font-family: Sue Ellen Francisco, cursive;
+}
+
+.source{
+	color:#ffff00;
+	font-size: 5vw;
+	font-family: Sue Ellen Francisco, cursive;
+}
+
+.yellow {
+	color: #ffff00;
+}
+
+#myCarousel1{
+    position: relative;
+}
+
+.tackice{
+    position: absolute;
+    bottom:0;
+}
+
+.carousel-inner img {
+    filter: grayscale(50%); 
+    width: 100vw !important;  
+	margin: auto;
+}
+
+.carousel-caption.frederika {
+	font-family: Fredericka The Great;
+	font-weight: bold;
+	color: #fff;
+}
+
+#myCarousel .carousel-indicators li {
+	border-color:#ffff00;
+}
+
+#myCarousel .carousel-indicators li.active {
+	background-color: #ffff00;
+}
+
+.large{
+	color: #ffff00;
+}
+
+.band {
+	margin-top: 60px;
+    margin-bottom: 40px;
+    overflow-x: hidden;
+}
+
+.members {
+	background-color:#000;
+	color:#fff;
+	font-family: Bangers, cursive;
+    padding-top: 25px;
+    overflow: hidden;
+}
+
+.lineup {
+	color: #ffcc00;
+	font-size: 50px;
+	padding: 0;
+}
+
+.lineup1 {
+	color:#ffff00;
+}
+
+.names {
+	font-size: 25px;
+}
+
+.img-circle {
+	transition: all 0.2s ease-in-out;
+	margin-top: 20px;
+    margin-bottom: 20px;
+	
+}
+
+.img-circle:hover {
+	transform:scale(1.1);
+    border:2px solid #ffff00;	
+}
+
+.europe {
+	background-image: url(img/tour.jpg);
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+	font-family: Bangers, cursive;
+	color: #000;
+}
+
+.tours {
+	color: #ffff00;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	font-size: 60px;
+	text-shadow: -1px 0 black, 0 2px black, 4px 0 black, 0 -1px black;
+}
+
+.tur18 {
+	color: #000;
+	text-shadow: -1px 0 #ffff00, 0 1px #ffff00, 4px 0 #ffff00, 0 -1px #ffff00;
+}
+
+.list-group-item {
+    background-color: rgba(255, 255, 255, 0.6);
+	color: #000;
+	border:1.5px solid #000;
+	padding: 8px;
+	font-size: 20px;
+}
+
+.soldout1 {
+    margin-right:20px;
+}
+
+.buyticket {
+	background-color: #000;
+	color:#ffff00;
+	transition: 0.2s;
+	font-size: 20px;
+	border:none;
+	padding:10px 12px;
+	border-radius: 5px;
+	margin-right:20px;
+	outline:none;
+    pointer-events: auto;
+}
+
+.buyticket:hover {
+	background-color: #ffff00;
+	color:#000;
+	border:1px solid #000;
+	box-sizing: border-box;
+	outline:none;
+	padding:9px 11px;
+}
+
+li.buying {
+	pointer-events: none;
+}
+
+li.buying:hover {
+	background-color: #000;
+	color: #ffff00;
+}
+
+.soldout2 {
+	font-size: 15px;
+	padding:10px 15px;
+	background-color:#ffff00;
+    color:#000;
+    margin-top: 5px;
+	margin-left:0;
+    margin-right:0;
+    transform: rotate(15deg);
+}
+
+.thumbnail {
+	background-color: #000;
+	color:#ffff00;
+	border:none;
+    margin-top:40px;
+    padding-top:5px 
+}
+
+.thumbnail button {
+	background-color: #ffff00;
+	color: #000;
+	border:2px solid #ffff00;
+	margin-bottom:10px;
+	transition:0.4s;
+	font-size: 20px;
+	border-radius: 0;
+	outline:none;
+}
+
+.thumbnail button:hover {
+	background-color: #000;
+	color: #ffff00;
+	border:2px solid #ffff00;
+    margin-bottom:10px;
+}
+
+.modal{
+    margin-top:5%;
+}
+
+.modal-content {
+	background-color: #ffff00;
+	border:2px solid #000;
+	border-radius:0;
+	margin-top: 40px;
+	font-family: Bangers, cursive;
+}
+
+.modal-header {
+	background-color: #000;
+	color: #ffff00;
+	border-radius: 0;
+	border:none;
+	font-size: 40px;
+	height:80px;
+}
+
+.modal-body {
+	font-family: Montserrat, cursive;
+}
+
+
+.cart {
+	font-size: 30px;
+}
+
+.place {
+	font-weight: bold;
+	margin-top:10px;
+	font-size: 20px;
+}
+
+input.purchase, textarea.purchase {
+	outline: none;
+	border:none;
+	box-shadow: none;
+	font-weight: bold;
+}
+
+button.order {
+	background-color: #000;
+	color: #ffff00;
+	border:2px solid #000;
+	font-size: 20px;
+	outline:none;
+	font-family: Bangers, cursive;
+	width:100%;
+	border-radius: 2px;
+	transition:0.4s;
+}
+
+button.order:hover {
+	background-color: #ffff00;
+	color: #000;
+	border:2px solid #000;
+	font-size: 20px;
+	border-radius: 2px;
+	font-family: Bangers, cursive;
+}
+
+.modal-footer {
+	border-radius: 0;
+	border:none;
+}
+
+button.cancel, button.cancel:hover {
+	font-size: 15px;
+	border:2px solid #000;
+	background-color:#000;
+	color:#ffff00; 
+	outline:none;
+	padding:5px 10px;
+	border-radius: 2px;
+	margin:-10px 10px 0px 20px;
+}
+
+a.help1 {
+	color:#000;
+	padding-top:-30px;
+	padding-left:5px;
+}
+
+a.help2 {
+	color:#000;
+	padding-top:5px;
+	padding-left:5px;
+}
+
+.exitbutton {
+	background-color:#000;
+	border:none;
+    font-size: 18px;
+    outline:none;
+}
+  
+.container-fluid.fanzone {
+ 	background-image: url(img/concert.gif);
+	background-repeat:no-repeat;
+	background-position: center center;
+	background-size:cover; 
+	color: #ffff00;
+}
+
+p.fanzonep {
+	color: #000;
+	margin-top: 80px;
+	margin-bottom: 100px;
+	font-size: 10vw;
+	text-shadow: -1px 0 #ffff00, 0 2px #ffff00, 4px 0 #ffff00, 0 -1px #ffff00;
+	margin-left: 40px;
+    font-family:Bangers, cursive;
+    position: relative;
+}
+
+p.fanzoner {
+	margin-left: 20px;
+	font-size: 4vw;
+	font-family:Bangers, cursive;
+}
+
+.fans{
+    border: 2px solid #ffff00;
+    border-radius: 50px;
+    background-color: #ffff00;
+    margin-left: 10px;
+}
+
+.arrow {
+	margin-top:-20%;
+	margin-left: 20px;
+	transform:rotate(15deg);
+	width: 12vw;
+}
+
+.question {
+	border:2px solid #000;
+	background-color: #ffff00;
+	color:#000;
+	font-size: 18px;
+	border-radius: 10px;
+	margin-bottom: 60px;
+	width:50%;
+	margin-left:10%;
+}
+
+#optionsErr{
+	color: red;
+	display: none;
+	font-family:Montserrat, cursive; 
+	font-size:12px;
+}
+
+.send {
+	font-size: 20px;
+	border:2px solid #000;
+	background-color:#000;
+	color:#ffff00; 
+	outline:none;
+	padding-top:2.5px;
+	padding-bottom:2.5px;
+	border-radius: 2px;
+	margin-bottom:20px;
+	width:80%;
+	font-family: Bangers, cursive;
+}
+
+.send:hover {
+	border:2px solid #000;
+	background-color:#ffff00;
+	color:#000; 
+	outline:none;
+	border-radius: 2px;
+	transition:0.4s;
+}
+
+.shirt{
+    margin-top:-20px;
+	margin-left:0px;
+	margin-bottom:-55%;
+    width: 23vw;
+}
+
+.question .form-group{
+	width:90%;
+	margin-left:5%; 
+}
+
+.lineup2 {
+	font-family: Bangers, cursive;
+	font-size: 50px;
+	margin:30px 0 20px 0;
+	color: #ffff00;
+}
+
+.footertext {
+	margin-left: 20px;
+	font-size: 14px;
+}
+
+.ajax {
+	font-family: Montserrat, cursive;
+}
+
+footer {
+	background-color: #000;
+	font-family: Montserrat, cursive;
+	color: #fff;
+	text-align:center;
+}
+
+.lastone {
+	color: #ffff00;
+	font-weight: bold;
+}
+
+span.goback {
+	color: #ffff00;
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+}
+
+.contactus {
+	background-color: #000;
+	font-family: Montserrat, cursive;
+	color: #fff;
+	padding-bottom:80px;
+}
+
+iframe {
+	height: 100vh;
+	min-width: 100%;
+	margin-left:0;
+	margin-right:0;
+	border:0;
+}
+
+.blogcontactspace {
+	background-color: #000;
+	color: #000;
+	padding-left: 0;
+	padding-right:0;
+	margin:0;
+}
+
+.gotoblog {
+	font-family: Bangers, cursive;
+	padding-left:0;
+	padding-right:0; 
+	font-size:4vw;
+	text-align:center;
+	color:#ffff00;
+	text-shadow: -1px 0 black, 0 2px black, 4px 0 black, 0 -1px black;
+}
+
+.envelope {
+	position:relative;
+	width:55vw;
+}
+
+.envelopecontact1 {
+	position: absolute;
+	font-size: 1vw;
+    top: 16%;
+	left: 37%;
+	color:#000;
+	font-weight:bold;
+}
+
+.envelopecontact2 {
+	display: none;
+	position: absolute;
+	font-size: 1vw;
+    top: 15%;
+	left: 25%;
+	color:#000;
+	font-weight:bold;
+}
+
+.envelopecontact3 {
+	display: none;
+	position: absolute;
+	font-size: 1vw;
+    top: 15%;
+	left: 25%;
+	color:#000;
+	font-weight:bold;
+}
+
+.bloglink, .bloglink:hover, .bloglink:visited, .bloglink:link, .bloglink:active
+{
+	text-decoration: none;
+	padding-left:0;
+	padding-right:0;
+}
+
+.kontaktheader{
+	padding-top: 2.5%;
+	padding-left: 2.5%;
+}
+
+#demo1, #demo2, #demo3, #demo4, #demo5, #demo6{
+	background-color: #ffff00;
+	color:#000;
+	transform: skewX(-12deg) skewY(-2.5deg);
+}
+
+.bandmember{
+	overflow: hidden;
+    max-height: none !important;
+    height: auto !important;
+}
+
+.suggestions{
+	font-family:Montserrat, cursive; 
+	font-size: 14px;
+	font-weight: bold;
+	float:left;
+}
+
+#comment1, #comment2 {
+	font-family:Montserrat, cursive; 
+	font-size:12px;
+	color: #cc0000;
+}
+
+.success {
+	border: 2px solid #00dd37;
+	outline: 0 none;
+}
+
+.failed {
+	border: 2px solid #cc0000; 
+	outline: 0 none;
+}
+
+input.errorjs {
+	border-color: #ff6666;
+	background-color: #ff3333;
+}
+
+input.correct {
+	border-color: #71e161;
+	background-color: #36e161;
+}
+
+.slidexanim {
+	visibility:hidden;
+}
+
+.slidex {
+	animation-name: slidex;
+	animation-duration: 1s; 
+	visibility: visible; 
+}
+
+@keyframes slidex {
+	0% {
+		opacity: 0;
+		transform: translateY(70%);
+	} 
+
+	100%{
+		opacity: 1;
+		transform: translateY(0%);
+	} 
+}
+
+
+
+
+
